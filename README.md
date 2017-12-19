@@ -1,4 +1,4 @@
-Private for SkeekS CMS
+User personal area for SkeekS CMS
 ===================================
 
 Links

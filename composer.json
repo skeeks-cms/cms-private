@@ -1,5 +1,5 @@
 {
-	"name": "skeeks/cms-private",
+	"name": "skeeks/cms-user-personal-area",
 	"description": "Priveate for SkeekS CMS",
 	"keywords": ["yii", "skeeks", "framework", "component", "agent"],
     	"homepage": "https://cms.skeeks.com/",
@@ -8,7 +8,7 @@
 	"support": {
         "issues": "https://skeeks.com/",
         "wiki": "https://cms.skeeks.com/docs/",
-        "source": "https://github.com/skeeks-cms/cms-private"
+        "source": "https://github.com/skeeks-cms/cms-user-personal-area"
     },
 	"authors": [
 		{
@@ -21,7 +21,7 @@
 	},
     "autoload": {
         "psr-4": {
-            "skeeks\\cms\\private\\": "src/"
+            "skeeks\\cms\\upa\\": "src/"
         }
     },
 	"extra": {

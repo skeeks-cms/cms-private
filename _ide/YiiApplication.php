@@ -11,10 +11,10 @@
 
 namespace yii\web;
 
-use skeeks\cms\agent\CmsAgentComponent;
+use skeeks\cms\upa\UpaBackendComponent;
 
 /**
- * @property CmsAgentComponent $cmsAgent
+ * @property UpaBackendComponent $upa
  *
  * Class Application
  * @package yii\web
