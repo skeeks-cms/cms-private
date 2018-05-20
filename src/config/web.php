@@ -1,16 +1,16 @@
 <?php
 /**
+ * @link https://cms.skeeks.com/
+ * @copyright Copyright (c) 2010 SkeekS
+ * @license https://cms.skeeks.com/license/
  * @author Semenov Alexander <semenov@skeeks.com>
- * @link https://skeeks.com/
- * @copyright (c) 2010 SkeekS
- * @date 20.12.2017
  */
-
 return [
-    'bootstrap' => ['upaBackend'],
+    'bootstrap'  => ['upaBackend'],
     'components' => [
         'upaBackend' => [
-            'class'                 => 'skeeks\cms\upa\UpaBackendComponent',
-        ]
-    ]
+            'id'    => 'upaBackend',
+            'class' => 'skeeks\cms\upa\UpaBackendComponent',
+        ],
+    ],
 ];
