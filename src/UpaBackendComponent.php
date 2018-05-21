@@ -5,7 +5,9 @@
  * @copyright (c) 2010 SkeekS
  * @date 11.03.2017
  */
+
 namespace skeeks\cms\upa;
+
 use skeeks\cms\backend\BackendComponent;
 use yii\base\Theme;
 
@@ -18,13 +20,13 @@ class UpaBackendComponent extends BackendComponent
     /**
      * @var string
      */
-    public $controllerPrefix    = "upa";
+    public $controllerPrefix = "upa";
 
     /**
      * @var array
      */
-    public $urlRule             = [
-        'urlPrefix' => '~upa'
+    public $urlRule = [
+        'urlPrefix' => '~upa',
     ];
 
     /*protected $_menu = [
